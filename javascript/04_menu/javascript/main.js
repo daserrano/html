@@ -1,8 +1,8 @@
 function encima(element){
-    element.style.backgroundColor = "yellow";
+    element.style.backgroundColor = "orange";
 }
 
 function fuera(element){
-    element.style.backgroundColor="white";
+    element.style.backgroundColor="yellow";
 
 }
