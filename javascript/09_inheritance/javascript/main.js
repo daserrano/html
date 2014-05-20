@@ -11,4 +11,3 @@ function show_vehicle(){
 	    output.innerHTML += i + ": " + vehicle[i] + "<br/>\n"
 }
 
-}
