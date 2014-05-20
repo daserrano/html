@@ -1,14 +1,20 @@
 function Car(){
-    this.wheels = 4
-	this.doors = 5
-	this.weight = 2000
-	this.payload = 400
+        this.wheels     = 4
+	this.doors      = 5
+	this.weight     = 2000
+	this.payload    = 400
+	this.passengers = 5
+	this.max_speed  = 200
+	this.fuel       = ["petrol", "gasoil"]
 
 }
 
 function Motorbike(){
-    this.wheels = 4
-	this.weight = 500
+        this.wheels     = 2
+	this.weight     = 500
+	this.passengers = 2
+	this.max_speed  = 230
+	this.fuel       = "petrol"
 
 }
 
