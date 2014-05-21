@@ -27,6 +27,9 @@ function perro(){
     this.nombre = "Lucas"
 }
 
+medusa.prototype = new invertebrado
+medusa.prototype.constructor = medusa
+
 function medusa(){
     invertebrado.call(this, "si")
     animal.call(this, carnivoro, macho, 20)
