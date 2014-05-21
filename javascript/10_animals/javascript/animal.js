@@ -24,11 +24,11 @@ perro.prototype.constructor = perro
 function perro(){
     vertebrado.call(this, 40)  // Llama al constructor de la superclase
     animal.call(this, omnivoro, macho, 14)
-    this.name = "Lucas"
+    this.nombre = "Lucas"
 }
 
 function medusa(){
     invertebrado.call(this, "si")
     animal.call(this, carnivoro, macho, 20)
-    this.name = "Caravela portuguesa"
+    this.nombreEspecie = "Caravela portuguesa"
 }
