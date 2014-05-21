@@ -1,6 +1,6 @@
 function animal(tipo, genero, tiempoVida){
-    this.tipo = tipo
-    this.genero = genero
+    this.tipo       = tipo
+    this.genero     = genero
     this.tiempoVida = tiempoVida
 }
 
