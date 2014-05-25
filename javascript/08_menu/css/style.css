@@ -1,0 +1,27 @@
+body{
+    background-color: #990022;
+    background-repeat: no-repeat;
+
+}
+div {
+margin: auto ;
+padding: 5px;
+text-align: center;
+
+}
+#padre {
+margin-top: 150px;
+width: 300px;
+
+}
+
+.hijoMayor{
+    background-color: orange;
+
+}
+
+.hijos {
+    border-color: orange;
+    background-color: yellow;
+
+}
